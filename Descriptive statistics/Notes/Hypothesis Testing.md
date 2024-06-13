@@ -1,4 +1,5 @@
 # Hypothesis Testing
+[Practice Notebook](https://github.com/DataByteSun/Revision/blob/6e1ce27df1ecf463ddadac9c23f5a3373620c48d/Descriptive%20statistics/Notebooks/Hypothesis%20Testing.ipynb)
 ## Introduction:
 Hypothesis testing is a powerful statistical tool for drawing conclusions from data. It guides decision-making in diverse fields like scientific research and business analytics.
 
@@ -21,7 +22,7 @@ Hypothesis testing is a powerful statistical tool for drawing conclusions from d
   - If the p-value is greater than or equal to α, the null hypothesis is not rejected.
 ----------------------------
 # Example:
-### Dataset Overview: [(Dataset Link-1)]() [(Dataset Link-2)](https://www.kaggle.com/datasets/ranitsarkar01/yulu-bike-sharing-data)
+### Dataset Overview: [(Dataset Link-1)](https://github.com/DataByteSun/Revision/blob/13ed0560c86cf57ca7a396aa7e0b0e7908595171/pra_datasets/yulu_bike_sharing_dataset.csv) [(Dataset Link-2)](https://www.kaggle.com/datasets/ranitsarkar01/yulu-bike-sharing-data)
 The dataset provided contains information on the demand for shared electric cycles in the Indian market, collected by Yulu, India's leading micro-mobility service provider. Yulu aims to understand the factors influencing the demand for their shared electric cycles to address recent revenue dips. The dataset likely includes variables such as "Count" (number of electric cycles rented), "Workingday" (binary variable indicating whether it's a working day or not), "Weather" (weather conditions), "Season" (season of the year), and possibly other relevant factors.
 - **Column Profiling:**
 - datetime: datetime
@@ -59,4 +60,4 @@ The dataset provided contains information on the demand for shared electric cycl
 - Alternate Hypothesis (H1): Weather conditions are dependent on the season.
 
 #### Notes:
-Test used here are [Mann-Whitney U test](), [kruskal](), [Chi-Square Statistic](), also [KD plot]() have used. 
+Test used here are [Mann-Whitney U test](https://github.com/DataByteSun/Revision/blob/56798414a7cedc5c1ff02b5c735f307ba2d04d33/Descriptive%20statistics/Notes/Types%20of%20Hypothesis%20Test.md), [kruskal](https://github.com/DataByteSun/Revision/blob/56798414a7cedc5c1ff02b5c735f307ba2d04d33/Descriptive%20statistics/Notes/Types%20of%20Hypothesis%20Test.md), [Chi-Square Statistic](https://github.com/DataByteSun/Revision/blob/56798414a7cedc5c1ff02b5c735f307ba2d04d33/Descriptive%20statistics/Notes/Types%20of%20Hypothesis%20Test.md), also [KD plot]() have used. 
