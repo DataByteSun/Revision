@@ -303,3 +303,21 @@ The p-value associated with an F-ratio of $3.84$ (calculated) is found to be gre
 **Since the calculated F-ratio (3.84) is less than the critical F-value (5.14) and the p-value is greater than 0.05, we fail to reject the null hypothesis. There is insufficient evidence to conclude that there are significant differences in weight loss among the three diet groups.** <br />
 ____________________
 ____________________
+# Concepts : (p-values, significance levels, and type I and type II errors)
+## P-values - The Surprise Factor: 
+- Picture yourself as a detective solving a mystery. The p-value is like your detective tool that measures how jaw-droppingly surprising your clues are. The lower the p-value, the more your evidence raises your eyebrows, hinting that something fishy might be going on!
+- **Example:** Imagine you're investigating a cookie theft at a party. If you find cookie crumbs all over someone's shirt, that's pretty suspicious, right? The p-value would tell you just how unlikely it is to find such crumbs if that person were innocent.
+
+## Significance Levels (Alpha) - Setting the Bar:
+- Think of the significance level as setting the stage for your big reveal. It's like deciding how glittery your red carpet will be. A common choice is 0.05, meaning you're rolling out a pretty glitzy carpet and only allowing a 5% chance of a false alarm.
+- **Example:** Picture yourself as the host of a glamorous awards show. You're deciding how extravagant the entrance should be. Choosing a significance level of 0.05 means you're only letting in nominees with the most dazzling performances.
+
+## Type I Error - False Alarms:
+- Imagine you're playing a game of "Spot the Spy" at a fancy gala. A Type I error is like accusing an innocent guest of being the spy when they're just there for the hors d'oeuvres. It's the embarrassing moment when your accusation falls flat!
+- **Example:** You mistakenly accuse the sommelier of being the spy just because they're whispering secrets about wine varieties. Oops!
+
+## Type II Error - Missed Opportunities:
+- This is the heart-sinking moment when you let the real culprit slip through your fingers. It's like overlooking a masked villain because you're too distracted by the fancy desserts. You had the chance to catch them red-handed, but they slipped away unnoticed!
+- **Example:** While you're busy enjoying the chocolate fountain, the real spy sneaks past you, leaving you scratching your head later.
+__________________________
+___________________________________
