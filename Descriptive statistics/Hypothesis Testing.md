@@ -1,4 +1,5 @@
 # Hypothesis Testing
+[Practice Notebook](https://github.com/DataByteSun/Revision/blob/6e1ce27df1ecf463ddadac9c23f5a3373620c48d/Descriptive%20statistics/Notebooks/Hypothesis%20Testing.ipynb)
 ## Introduction:
 Hypothesis testing is a powerful statistical tool for drawing conclusions from data. It guides decision-making in diverse fields like scientific research and business analytics.
 
