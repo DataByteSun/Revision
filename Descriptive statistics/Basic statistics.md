@@ -1,4 +1,5 @@
-# Review basic statistics, probability, & linear algebra concepts
+# Review basic statistics
+[Practice NoteBook](https://github.com/DataByteSun/Revision/blob/82102cb10288bb29e5b3f3f910c31b044472fe21/Descriptive%20statistics/Notebooks/Basic%20Statistics.ipynb)
 ## Basic Statistics
 ### Descriptive Statistics:
 Understand measures such as mean, median, mode, variance, and standard deviation. Practice calculating these statistics for given datasets.
