@@ -60,4 +60,4 @@ The dataset provided contains information on the demand for shared electric cycl
 - Alternate Hypothesis (H1): Weather conditions are dependent on the season.
 
 #### Notes:
-Test used here are [Mann-Whitney U test](), [kruskal](), [Chi-Square Statistic](), also [KD plot]() have used. 
+Test used here are [Mann-Whitney U test](https://github.com/DataByteSun/Revision/blob/56798414a7cedc5c1ff02b5c735f307ba2d04d33/Descriptive%20statistics/Notes/Types%20of%20Hypothesis%20Test.md), [kruskal](https://github.com/DataByteSun/Revision/blob/56798414a7cedc5c1ff02b5c735f307ba2d04d33/Descriptive%20statistics/Notes/Types%20of%20Hypothesis%20Test.md), [Chi-Square Statistic](https://github.com/DataByteSun/Revision/blob/56798414a7cedc5c1ff02b5c735f307ba2d04d33/Descriptive%20statistics/Notes/Types%20of%20Hypothesis%20Test.md), also [KD plot]() have used. 
