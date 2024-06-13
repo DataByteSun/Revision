@@ -116,7 +116,7 @@ Where: <br />
 - Compare $H$ to critical value from the chi-square distribution. 
 
 **Determining p-value:** <br />
-Once $H$ is calculated, it's compared to a critical value from the chi-square distribution with degrees of freedom equal to $g-1# (where $g$ is the number of groups). <br />
+Once $H$ is calculated, it's compared to a critical value from the chi-square distribution with degrees of freedom equal to $g-1$ (where $g$ is the number of groups). <br />
 The p-value is determined by comparing the calculated $H$) value to the chi-square distribution under the null hypothesis. <br />
 If the p-value is less than a predetermined significance level (usually 0.05), the null hypothesis is rejected, indicating a significant difference between the groups. <br />
 
