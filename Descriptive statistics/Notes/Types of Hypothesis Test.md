@@ -146,7 +146,7 @@ The expected frequency for each cell of the contingency table should be at least
 - If the calculated $\chi^2$ value exceeds the critical value, we reject the null hypothesis, concluding that there is a significant association between the variables.
 - If the $\chi^2$ value is smaller, we fail to reject the null hypothesis, suggesting no significant association.
 
-**Mathematical Formula:** <br/>
+**Formula:** <br/>
 
 The Chi-Square test statistic ($\chi^2$) is calculated as:
 $\chi^2 = \sum \frac{(O - E)^2}{E}$
@@ -223,3 +223,83 @@ Step 6: Determine p-value:  <br/>
 **Since the p-value $< 0.05$, we reject the null hypothesis. There is a significant association between smoking habits and lung cancer risk.**  <br/>
 ______________
 ______________
+## 4. Understanding theANOVA (Analysis of Variance) Test
+ANOVA is a statistical method used to compare means between two or more groups to determine if there are statistically significant differences.<br />
+It's commonly used in research to analyze experiments with multiple treatment groups.<br />
+
+**Purpose:** <br />
+Main goal: Assess whether there are differences in means among the groups. <br />
+Example: Comparing the effectiveness of three different diets on weight loss. <br />
+
+**Assumptions:** <br />
+Data within each group should be approximately normally distributed. <br />
+Homogeneity of variances: Variances should be approximately equal across groups. <br />
+Observations should be independent. <br />
+
+**How it Works:** <br />
+1. Formulating Hypotheses: Define null and alternative hypotheses regarding the means of the groups.
+2. Calculating Sum of Squares: Calculate the total sum of squares (SST), sum of squares between groups (SSG), and sum of squares within groups (SSW).
+3. Degrees of Freedom: Calculate degrees of freedom for between groups (DFG) and within groups (DFW).
+4. Calculating F-ratio: Compute the F-ratio by dividing the mean square between groups (MSG) by the mean square within groups (MSW).
+5. Comparison: Compare the calculated F-ratio to a critical value from the F-distribution to determine significance.
+
+**Interpretation:** <br/>
+- If the calculated F-ratio exceeds the critical value, we reject the null hypothesis, indicating that there are significant differences among the group means.
+- If the F-ratio is smaller, we fail to reject the null hypothesis, suggesting no significant differences.
+  
+**Formula:** <br/>
+The F-ratio is calculated as: <br/>
+$F = \frac{MSW}{MSG} = \frac{SSW}{DFW} \div \frac{SSG}{DFG}$
+
+**Example:** <br />
+- Suppose we have weight loss data from three diet groups: <br />
+  - Diet A: 5, 7, 6
+  - Diet B: 4, 8, 9
+  - Diet C: 3, 5, 4
+- Calculate the mean for each group and the overall mean.
+- Calculate the total sum of squares (SST), sum of squares between groups (SSG), and sum of squares within groups (SSW).
+- Use these values to calculate the F-ratio.
+
+**Determining p-value:** <br />
+Once the F-ratio is calculated, it's compared to a critical value from the F-distribution with appropriate degrees of freedom. <br />
+The p-value represents the probability of observing an F-ratio as extreme as, or more extreme than, the calculated value, assuming the null hypothesis is true. <br />
+If the p-value is less than a predetermined significance level (usually 0.05), the null hypothesis is rejected, indicating significant differences among group means. <br />
+
+**Conclusion:** <br />
+ANOVA is a powerful tool for comparing means across multiple groups. <br />
+It allows researchers to determine whether there are significant differences in treatment effects, providing insights into the effectiveness of different interventions. <br />
+
+**Example Solution:** <br/>
+Step 1:Calculate Mean for Each Group and Overall Mean: <br/>
+- For Diet A: Mean = (5 + 7 + 6) / 3 = 6
+- For Diet B: Mean = (4 + 8 + 9) / 3 = 7
+- For Diet C: Mean = (3 + 5 + 4) / 3 = 4
+- Overall Mean = (6 + 7 + 4) / 3 = 17 / 3 ≈ 5.67
+
+Step 2: Calculate Total Sum of Squares (SST), Sum of Squares Between Groups (SSG), and Sum of Squares Within Groups (SSW):  <br/>
+
+i. Calculate Total Sum of Squares (SST): <br />
+$\text{SST} = \sum (X_{ij} - \bar{X})^2 = (5 - 5.67)^2 + (7 - 5.67)^2 + (6 - 5.67)^2 + (4 - 5.67)^2 + (8 - 5.67)^2 + (9 - 5.67)^2 + (3 - 5.67)^2 + (5 - 5.67)^2 + (4 - 5.67)^2$
+$= 1.89 + 0.89 + 0.12 + 2.56 + 3.61 + 7.42 + 8.12 + 0.12 + 2.56 = 27.29$
+
+ii. Calculate Sum of Squares Between Groups (SSG):<br />
+$\text{SSG} = \sum (n_i \times (\bar{X}_i - \bar{X})^2) = (3 \times (6 - 5.67)^2) + (3 \times (7 - 5.67)^2) + (3 \times (4 - 5.67)^2)$
+$= (3 \times 0.1089) + (3 \times 1.8489) + (3 \times 3.1489) = 0.3267 + 5.5467 + 9.4467 = 15.32$
+
+iii.Calculate Sum of Squares Within Groups (SSW): <br />
+$\text{SSW} = \text{SST} - \text{SSG} = 27.29 - 15.32 = 11.97$
+
+Step 3: Calculate Degrees of Freedom (DFG and DFW):<br />
+$DFG = \text{Number of groups} - 1 = 3 - 1 = 2$
+$DFW = \text{Total number of observations} - \text{Number of groups} = 9 - 3 = 6$
+
+Step 4: Calculate F-Ratio: <br />
+$F = \frac{MSG}{MSW} = \frac{SSG / DFG}{SSW / DFW} = \frac{15.32 / 2}{11.97 / 6} = \frac{7.66}{1.995} \approx 3.84$
+
+Step 5: Determine p-value: <br />
+Using statistical software or F-distribution tables, at $DFG = 2$ and $DFW = 6$ and a significance level of $\alpha = 0.05$, the critical F-value is approximately $5.14$. <br />
+The p-value associated with an F-ratio of $3.84$ (calculated) is found to be greater than $0.05$. <br />
+
+**Since the calculated F-ratio (3.84) is less than the critical F-value (5.14) and the p-value is greater than 0.05, we fail to reject the null hypothesis. There is insufficient evidence to conclude that there are significant differences in weight loss among the three diet groups.** <br />
+____________________
+____________________
