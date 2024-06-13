@@ -1,4 +1,6 @@
 # Revision
  Data science preparation revision plan for 2 months
 ## Data Science Fundamentals
-- [**Review basic statistics, probability, and linear algebra concepts.**](https://github.com/SurajPawarIN/Revision/tree/640714247624aad6b74c02bb16a7ac88376a3d10/Descriptive%20statistics)
+- [**Review basic statistics concepts.**](https://github.com/DataByteSun/Revision/tree/5bd0cce86ca99faddc4032dfc011dfc9149d589a/Descriptive%20statistics)
+- [**probability concepts.**]()
+- [**linear algebra concepts.**]()
