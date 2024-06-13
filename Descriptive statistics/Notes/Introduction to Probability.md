@@ -1,4 +1,5 @@
 # All about Probability
+### Link: [Bayes Theorem Notebook](https://github.com/DataByteSun/Revision/blob/a918c0425db8890148d5edb1037a94bf818006b6/Descriptive%20statistics/Notebooks/Bayes%20Theorem.ipynb)
 ## Introduction to Probability:
 Probability theory is a fundamental concept in data science, providing a framework for quantifying uncertainty. It allows us to make informed decisions in the presence of randomness or uncertainty. <br/>
 ## Sample Spaces and Events:
