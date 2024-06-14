@@ -1,5 +1,8 @@
 # Understanding Probability Distributions
 Probability distributions provide a mathematical framework for describing the likelihood of different outcomes in a given scenario. Here, we'll delve into some common probability distributions, exploring their properties and real-world applications. <br />
+
+[Practice NoteBook](https://github.com/DataByteSun/Revision/blob/3fe7bcd1b4e6f52755f3649e0e87c495f042bb40/Descriptive%20statistics/Notebooks/Probability%20Distributions.ipynb)
+
 ## 1. Uniform Distribution
 The uniform distribution is like rolling a fair six-sided die. Each number from 1 to 6 has an equal chance of landing face-up. In other words, every outcome is equally likely. <br />
 #### Example:
